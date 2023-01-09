@@ -50,9 +50,21 @@ table {
 }
 
 
+
+
+
+
+
 body {
-    background-color:#92817a;
-    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80");    text-align: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.headerContainer,.footerContainer {
+    opacity: 0.75;
+    background-color: rgb(0, 0, 0);
 }
 
 .headerNavContainer {
@@ -65,12 +77,20 @@ body {
 
 button {
     max-width: auto;
-    background-color: #f1dabf;
     padding: 0.75rem 2rem;
-    border-radius: 10%;
 }
 
 h1 {
     font-family: "Sofia", sans-serif;
     font-size: 3rem;
+    padding: 1.5rem;
+    color: aliceblue;
+}
+
+.footerContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0rem;
+    color: aliceblue;
 }
